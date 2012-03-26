@@ -20,7 +20,7 @@ urls = (
 
 class index:
     def GET(self):
-        return "Hello, world...  Running on web.py version :" + web.__version__
+        return "Hello, world...  Running on web.py version: " + web.__version__
 
 application = web.application(urls, globals()).wsgifunc()
 
